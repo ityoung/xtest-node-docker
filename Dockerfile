@@ -6,3 +6,5 @@ RUN mkdir /www \
         && cd /www/xtest-web \
         && npm install -g cnpm --registry=https://registry.npm.taobao.org \
         && cnpm install
+
+WORKDIR /www/xtest-web
